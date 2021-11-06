@@ -13,13 +13,13 @@
 Unduh repository ke dalam komputer menggunakan perintah `git clone`. Url
 repository dapat dilihat di dalam repository yang diinginkan.
 
-```
+```git
 git clone <url repository> <folder tujuan>
 ```
 
 #### Contoh
 
-```
+```git
 user@host:~$ git clone https://github.com/datascienceid/instagram.git instagram
 Cloning into 'instagram'...
 remote: Counting objects: 4, done.
@@ -33,7 +33,7 @@ Unpacking objects: 100% (4/4), done.
 Perbarui repository yang telah diunduh ke dalam komputer menggunakan perintah
 `git pull`.
 
-```
+```git
 git pull origin <nama branch>
 ```
 
